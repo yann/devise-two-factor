@@ -20,8 +20,6 @@ module DeviseTwoFactor
         migration_arguments = [
                                 "add_devise_two_factor_to_#{plural_name}",
                                 "encrypted_otp_secret:string",
-                                "encrypted_otp_secret_iv:string",
-                                "encrypted_otp_secret_salt:string",
                                 "otp_required_for_login:boolean"
                               ]
 
