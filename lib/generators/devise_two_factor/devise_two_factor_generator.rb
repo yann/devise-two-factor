@@ -3,8 +3,6 @@ require 'rails/generators'
 module DeviseTwoFactor
   module Generators
     class DeviseTwoFactorGenerator < Rails::Generators::NamedBase
-      argument :encryption_key_env, :type => :string, :required => true
-
       desc 'Creates a migration to add the required attributes to NAME, and ' \
            'adds the necessary Devise directives to the model'
 
